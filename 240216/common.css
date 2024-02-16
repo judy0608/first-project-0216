@@ -1,0 +1,32 @@
+/* FONT-STYLE */
+/* font-family: "Cinzel", serif; */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap");
+
+/* font-family: 'Montserrat', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+
+/* font-family: 'Monoton', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+
+/* font-family: 'Raleway', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap");
+
+/* font-family: 'Noto Sans KR', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap");
+
+/* font-family: "IBM Plex Sans KR", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600&display=swap");
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}

@@ -1,0 +1,374 @@
+/* ##### MEDIAQUERY : TABLET ##### */
+
+@media screen and (max-width: 1024px) {
+  .cd-section {
+    height: auto;
+  }
+  .cd-section > div {
+    height: auto;
+  }
+  .content {
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* header */
+  header {
+    z-index: 100;
+    transition: all 0.5s;
+    /* height: 60px; */
+  }
+  header.active {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+  }
+  .logo {
+    position: absolute;
+    top: 0;
+    left: -15px;
+    width: 100%;
+    height: 15px;
+  }
+  .modal-gnb {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    /* right active -250px */
+    right: -250px;
+    width: 250px;
+    height: 100vh;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+  }
+  .modal-gnb.active {
+    right: 0;
+  }
+  .menu {
+    /* border: 1px solid #f00; */
+    display: block;
+    margin-top: 70px;
+    transition: all 0.3s;
+  }
+  .menu a {
+    display: block;
+    text-align: right;
+    padding-right: 30px;
+    color: #d5d5d5;
+    font-size: 30px;
+  }
+  .menu a:hover {
+    color: #353535;
+  }
+  /* trigger */
+  .trigger {
+    display: block;
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 200;
+  }
+  .trigger.active {
+    display: block;
+  }
+  .trigger span {
+    position: absolute;
+    right: 0;
+    width: inherit;
+    height: 1.5px;
+    background: #353535;
+    z-index: 200;
+  }
+  .trigger span:nth-child(1) {
+    top: 0;
+  }
+  .trigger span:nth-child(2) {
+    width: 80%;
+    top: 50%;
+  }
+  .trigger span:nth-child(3) {
+    top: 100%;
+  }
+  .trigger.active span:nth-child(1) {
+    top: 50%;
+    transform: rotate(45deg);
+  }
+  .trigger.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .trigger.active span:nth-child(3) {
+    top: 50%;
+    transform: rotate(-45deg);
+  }
+
+  /* Show Hide Section */
+  #home,
+  #profile,
+  #favorite,
+  #contact {
+    display: block;
+  }
+
+  /* home */
+  .home-inner {
+    height: 100vh;
+  }
+  .home-heading span {
+    font-size: 100px;
+    line-height: 10rem;
+  }
+
+  /* profile  */
+  .profile-inner {
+    height: auto;
+    border: none;
+  }
+  .profile-inner > div {
+    float: none;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 30px;
+  }
+  .profile-text,
+  .profile-photo img {
+    position: static;
+    transform: none;
+    padding: 20px;
+  }
+  .profile-photo img {
+    text-align: center;
+    width: 100%;
+    height: 90%;
+  }
+
+  /* Favorite */
+  .favorite-inner {
+    height: auto;
+    padding: 20px;
+  }
+  .favorite-inner h1 {
+    z-index: 1;
+    top: -50px;
+    /* left: 100px; */
+    padding: 5px;
+    font-weight: bold;
+    background: #353535;
+    color: #d5d5d5;
+  }
+  .items {
+    position: static;
+    width: 100%;
+    transform: none;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .item img {
+    float: none;
+  }
+
+  /* contact */
+  .contact-inner {
+    height: auto;
+  }
+  .contact-feature {
+    position: static;
+    transform: none;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .contact-feature > div {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* ##### MEDIAQUERY : MOBILE ##### */
+
+@media screen and (max-width: 768px) {
+  .cd-section {
+    height: auto;
+  }
+  .cd-section > div {
+    height: auto;
+  }
+  .content {
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* header */
+  header {
+    z-index: 100;
+    transition: all 0.5s;
+    /* height: 60px; */
+  }
+  header.active {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+  }
+  .logo {
+    position: absolute;
+    top: 0;
+    left: -15px;
+    width: 100%;
+    height: 15px;
+  }
+  .modal-gnb {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    /* right active -250px */
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+  }
+  .modal-gnb.active {
+    right: 0;
+  }
+  .menu {
+    /* border: 1px solid #f00; */
+    display: block;
+    margin-top: 60px;
+    transition: all 0.3s;
+  }
+  .menu a {
+    display: block;
+    text-align: right;
+    padding-right: 20px;
+    color: #d5d5d5;
+    font-size: 20px;
+  }
+  .menu a:hover {
+    color: #353535;
+  }
+  /* trigger */
+  .trigger {
+    display: block;
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 200;
+  }
+  .trigger.active {
+    display: block;
+  }
+  .trigger span {
+    position: absolute;
+    right: 0;
+    width: inherit;
+    height: 1.5px;
+    background: #353535;
+    z-index: 200;
+  }
+  .trigger span:nth-child(1) {
+    top: 0;
+  }
+  .trigger span:nth-child(2) {
+    width: 80%;
+    top: 50%;
+  }
+  .trigger span:nth-child(3) {
+    top: 100%;
+  }
+  .trigger.active span:nth-child(1) {
+    top: 50%;
+    transform: rotate(45deg);
+  }
+  .trigger.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .trigger.active span:nth-child(3) {
+    top: 50%;
+    transform: rotate(-45deg);
+  }
+
+  /* Show Hide Section */
+  #home,
+  #profile,
+  #favorite,
+  #contact {
+    display: block;
+  }
+
+  /* home */
+  .home-inner {
+    height: 100vh;
+  }
+  .home-heading span {
+    font-size: 100px;
+    line-height: 10rem;
+  }
+
+  /* profile  */
+  .profile-inner {
+    height: auto;
+    border: none;
+  }
+  .profile-inner > div {
+    float: none;
+    width: 100%;
+    height: 600px;
+  }
+  .profile-text,
+  .profile-photo img {
+    position: static;
+    transform: none;
+    padding: 0 20px;
+  }
+  .profile-photo img {
+    text-align: center;
+    width: 100%;
+    height: 70%;
+  }
+
+  /* Favorite */
+  .favorite-inner {
+    height: auto;
+    padding: 20px;
+  }
+  .favorite-inner h1 {
+    z-index: 1;
+    font-size: 30px;
+    top: 0px;
+    left: 0px;
+    padding: 5px;
+    font-weight: bold;
+    background: #353535;
+    color: #d5d5d5;
+  }
+  .items {
+    position: static;
+    width: 100%;
+    transform: none;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .item img {
+    float: none;
+  }
+
+  /* contact */
+  .contact-inner {
+    height: auto;
+  }
+  .contact-feature {
+    position: static;
+    transform: none;
+    width: 100%;
+  }
+  .contact-feature > div {
+    float: none;
+    width: 100%;
+  }
+}

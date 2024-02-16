@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./contents/image/favicon.png"
+      type="image/x-icon"
+    />
+    <title>JUDY WORLD</title>
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/650c371f3c.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JQUERY -->
+    <script src="./js/jquery-2.1.4.js"></script>
+    <!-- PAGE SCROLL EFFECT -->
+    <link rel="stylesheet" href="./js/velocity/velocity.css" />
+    <script src="./js/velocity/main.js"></script>
+    <script src="./js/velocity/modernizr.js"></script>
+    <script src="./js/velocity/velocity.min.js"></script>
+    <script src="./js/velocity/velocity.ui.min.js"></script>
+    <!-- SLICK SLIDER -->
+    <link rel="stylesheet" href="./js/slick/slick-theme.css" />
+    <link rel="stylesheet" href="./js/slick/slick.css" />
+    <script src="./js/slick/slick.js"></script>
+    <!-- FEADERLIGHT -->
+    <link rel="stylesheet" href="./js/featherlight/featherlight.css" />
+    <script src="./js/featherlight/featherlight.js"></script>
+    <!-- SCROLLTO -->
+    <script src="./js/scrollTo/jquery.scrollTo.js"></script>
+    <!-- CUSTOM -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mediaquery.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
+  <body data-hijacking="off" data-animation="rotate">
+    <div class="container">
+      <header>
+        <div class="gnb-inner">
+          <div class="logo">
+            <a href="#">JUDY</a>
+          </div>
+          <div class="gnb modal-gnb">
+            <div class="menu">
+              <a href="#home">HOME</a>
+              <a href="#profile">ABOUT</a>
+              <a href="#favorite">FAVORITE</a>
+              <a href="#contact">CONTACT</a>
+            </div>
+          </div>
+          <div class="trigger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </header>
+      <section id="home" class="cd-section visible">
+        <div>
+          <div class="content">
+            <div class="home-inner">
+              <div class="main-image"></div>
+              <div class="home-heading">
+                <span>Oblige</span>
+                <span>True</span>
+                <span>Grace</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="profile" class="cd-section">
+        <div>
+          <div class="content">
+            <div class="profile-inner">
+              <div class="profile-text">
+                <div class="text-box">
+                  <h2>Let me<br />Introduce<br />My self</h2>
+                  <hr class="bar" />
+                  <p>
+                    안녕하세요 :) <br />
+                    저의 첫 웹 페이지에 방문해 주셔서 감사합니다. <br />
+                    제 이야기가 듣고 싶으시다면, <br />
+                    아래의 버튼을 클릭해 주세요!
+                  </p>
+                  <a
+                    class="view-profile"
+                    href="./profile.html"
+                    data-featherlight="iframe"
+                  >
+                    VIEW PROFILE
+                  </a>
+                </div>
+              </div>
+              <div class="profile-photo">
+                <img src="./contents/image/IMG_8712.JPG" alt="img01" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="favorite" class="cd-section">
+        <div>
+          <div class="content">
+            <div class="favorite-inner">
+              <h1>Things I like</h1>
+              <div class="items">
+                <div class="item">
+                  <img
+                    src="./contents/favorite/IMG_3884.jpg"
+                    alt="Festival"
+                    width="400px"
+                    height="300px"
+                  />
+                  <div class="caption">
+                    <h2>축제</h2>
+                  </div>
+                </div>
+                <div class="item">
+                  <img
+                    src="./contents/favorite/IMG_4235.jpg"
+                    alt="Travel"
+                    width="400px"
+                    height="300px"
+                  />
+                  <div class="caption">
+                    <h2>여행</h2>
+                  </div>
+                </div>
+                <div class="item">
+                  <img
+                    src="./contents/favorite/IMG_9580.jpg"
+                    alt="TheaterPlay"
+                    width="400px"
+                    height="300px"
+                  />
+                  <div class="caption">
+                    <h2>공연</h2>
+                  </div>
+                </div>
+                <div class="item">
+                  <img
+                    src="./contents/favorite/IMG_4758.jpg"
+                    alt="Exhibition"
+                    width="400px"
+                    height="300px"
+                  />
+                  <div class="caption">
+                    <h2>전시회</h2>
+                  </div>
+                </div>
+                <div class="item">
+                  <img
+                    src="./contents/favorite/IMG_1276.jpg"
+                    alt="Snowboard"
+                    width="400px"
+                    height="300px"
+                  />
+                  <div class="caption">
+                    <h2>스노우보드</h2>
+                  </div>
+                </div>
+                <div class="item">
+                  <img
+                    src="./contents/favorite/IMG_4469.jpg"
+                    alt="Exercise"
+                    width="400px"
+                    height="300px"
+                  />
+                  <div class="caption">
+                    <h2>운동</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="cd-section">
+        <div>
+          <div class="content">
+            <div class="contact-inner">
+              <div class="contact-feature">
+                <h1><b>Contact</b> Me</h1>
+                <div class="contact-info">
+                  <div class="info-top">
+                    <img src="./contents/image/callme.JPG" alt="" />
+                    <article>
+                      <span>
+                        <i class="fa-solid fa-phone"></i>
+                        010-3252-9668
+                      </span>
+                      <span>
+                        <i class="fa-regular fa-envelope"></i>
+                        judy_music@naver.com
+                      </span>
+                    </article>
+                  </div>
+                  <div class="info-border">
+                    <div class="link-icon">
+                      <a
+                        href="https://www.instagram.com/ms._judy/"
+                        target="_blank"
+                      >
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>INSTAGRAM</span>
+                      </a>
+                    </div>
+                    <div class="link-icon">
+                      <a href="https://github.com/judy0608" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GITHUB</span>
+                      </a>
+                    </div>
+                    <div class="link-icon">
+                      <a
+                        href="https://ezen-webstudy.slack.com/team/U06DPNV7QFJ"
+                        target="_blank"
+                      >
+                        <i class="fa-brands fa-slack"></i>
+                        <span>SLACK</span>
+                      </a>
+                    </div>
+                    <div class="link-icon">
+                      <a href="https://pin.it/6mxATaS3G" target="_blank">
+                        <i class="fa-brands fa-pinterest"></i>
+                        <span>Pinterest</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact-form">
+                  <form
+                    class="send-box"
+                    action="http://localhost/3000/contactpage"
+                    method="post"
+                  >
+                    <label for="text">Name <span>*</span></label>
+                    <input id="text" type="text" />
+                    <label for="email">Email <span>*</span></label>
+                    <input id="email" type="email" />
+                    <label for="message">Message <span>*</span></label>
+                    <textarea
+                      name="message"
+                      id="message"
+                      cols="30"
+                      rows="10"
+                    ></textarea>
+                    <input type="submit" value="Send Message" />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
